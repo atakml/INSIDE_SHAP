@@ -58,3 +58,4 @@ PYTHONPATH=:{parent directory of code}/shap_inside/codebase:{parent directory of
 ```
 ### NOTE
 Please rename the name of the code directory to "shap_inside"
+Please extract the files of the large_files.zip into the corresponding directory marked in the large_files.txt
