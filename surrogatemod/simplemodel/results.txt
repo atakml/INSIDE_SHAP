@@ -1,0 +1,488 @@
+dataset: aids
+  Decision Tree
+training_acc: (tensor(0.0215, dtype=torch.float64), tensor(0.9812))
+validation_acc: (tensor(0.1170, dtype=torch.float64), tensor(0.9500))
+test_acc: (tensor(0.1163, dtype=torch.float64), tensor(0.9550))
+  Linear Model
+training_acc: (tensor(nan, dtype=torch.float64), tensor(0.8725))
+validation_acc: (tensor(0.2046, dtype=torch.float64), tensor(0.8850))
+test_acc: (tensor(0.2486, dtype=torch.float64), tensor(0.8250))
+  MLP
+Best Train Accuracy: 0.996875, Best Val Accuracy: 0.985000, Best Test Accuracy: 1.000000
+Best Train Loss: 0.006166, Best Val Loss: 0.021818, Best Test Loss: 0.000410
+dataset:ba2
+  Decision Tree
+training_acc: (tensor(0.0015, dtype=torch.float64), tensor(0.9887))
+validation_acc: (tensor(0.0017, dtype=torch.float64), tensor(0.9900))
+test_acc: (tensor(0.0040, dtype=torch.float64), tensor(0.9800))
+  Linear Model
+training_acc: (tensor(0.0099, dtype=torch.float64), tensor(0.9837))
+validation_acc: (tensor(0.0110, dtype=torch.float64), tensor(0.9600))
+test_acc: (tensor(0.0111, dtype=torch.float64), tensor(0.9600))
+  MLP
+  Best Train Accuracy: 0.991250, Best Val Accuracy: 0.960000, Best Test Accuracy: 0.990000
+Best Train Loss: 0.001038, Best Val Loss: 0.002125, Best Test Loss: 0.000062
+dataset:BBBP
+  Decision Tree
+training_acc: (tensor(0.0075, dtype=torch.float64), tensor(0.9726))
+validation_acc: (tensor(0.0384, dtype=torch.float64), tensor(0.9207))
+test_acc: (tensor(0.0360, dtype=torch.float64), tensor(0.9573))
+  Linear Model
+training_acc: (tensor(0.2341, dtype=torch.float64), tensor(0.8095))
+validation_acc: (tensor(0.2240, dtype=torch.float64), tensor(0.7683))
+test_acc: (tensor(0.1901, dtype=torch.float64), tensor(0.8476))
+  MLP
+Best Train Accuracy: 0.978659, Best Val Accuracy: 0.926829, Best Test Accuracy: 0.951220
+Best Train Loss: 0.007623, Best Val Loss: 0.031768, Best Test Loss: 0.000687
+dataset:mutag
+  Decision Tree
+training_acc: (tensor(0.0097, dtype=torch.float64), tensor(0.9611))
+validation_acc: (tensor(0.0608, dtype=torch.float64), tensor(0.9009))
+test_acc: (tensor(0.0796, dtype=torch.float64), tensor(0.8571))
+  Linear Model
+training_acc: (tensor(0.2749, dtype=torch.float64), tensor(0.6114))
+validation_acc: (tensor(0.3022, dtype=torch.float64), tensor(0.6014))
+test_acc: (tensor(0.2713, dtype=torch.float64), tensor(0.5899))
+  MLP
+Best Train Accuracy: 0.914096, Best Val Accuracy: 0.898618, Best Test Accuracy: 0.884793
+Best Train Loss: 0.044285, Best Val Loss: 0.071387, Best Test Loss: 0.001880
+dataset:Benzen
+  Decision Tree
+training_acc: (tensor(0.0182, dtype=torch.float64), tensor(0.9664))
+validation_acc: (tensor(0.0584, dtype=torch.float64), tensor(0.9341))
+test_acc: (tensor(0.0605, dtype=torch.float64), tensor(0.9347))
+  Linear Model
+training_acc: (tensor(0.3550, dtype=torch.float64), tensor(0.8056))
+validation_acc: (tensor(0.3481, dtype=torch.float64), tensor(0.7711))
+test_acc: (tensor(0.3425, dtype=torch.float64), tensor(0.7773))
+  MLP
+Best Train Accuracy: 0.962917, Best Val Accuracy: 0.950289, Best Test Accuracy: 0.942904
+Best Train Loss: 0.024384, Best Val Loss: 0.041020, Best Test Loss: 0.001275
+dataset:AlkaneCarbonyl
+  Decision Tree
+training_acc: (tensor(0.0003, dtype=torch.float64), tensor(0.9989))
+validation_acc: (tensor(0.0007, dtype=torch.float64), tensor(1.))
+test_acc: (tensor(0.0014, dtype=torch.float64), tensor(1.))
+  Linear Model
+training_acc: (tensor(0.1557, dtype=torch.float64), tensor(0.6089))
+validation_acc: (tensor(0.1555, dtype=torch.float64), tensor(0.6339))
+test_acc: (tensor(0.1595, dtype=torch.float64), tensor(0.6460))
+  MLP
+Best Train Accuracy: 0.998889, Best Val Accuracy: 1.000000, Best Test Accuracy: 1.000000
+Best Train Loss: 0.000439, Best Val Loss: 0.001185, Best Test Loss: 0.000048
+
+
+
+aids
+  MLP
+Best Train Accuracy: 0.997500, Best Val Accuracy: 0.995000, Best Test Accuracy: 1.000000
+Best Train Loss: 0.004528, Best Val Loss: 0.020154, Best Test Loss: 0.010268
+ba2
+  MLP
+Best Train Accuracy: 0.992500, Best Val Accuracy: 0.980000, Best Test Accuracy: 0.990000
+Best Train Loss: 0.001103, Best Val Loss: 0.002126, Best Test Loss: 0.001697
+BBBP
+  MLP
+Best Train Accuracy: 0.985518, Best Val Accuracy: 0.945122, Best Test Accuracy: 0.963415
+Best Train Loss: 0.004238, Best Val Loss: 0.028525, Best Test Loss: 0.016676
+mutag
+  MLP
+Best Train Accuracy: 0.906313, Best Val Accuracy: 0.896313, Best Test Accuracy: 0.882488
+Best Train Loss: 0.048089, Best Val Loss: 0.066551, Best Test Loss: 0.056283
+Benzen
+  MLP
+Best Train Accuracy: 0.969431, Best Val Accuracy: 0.960694, Best Test Accuracy: 0.951060
+Best Train Loss: 0.019040, Best Val Loss: 0.035711, Best Test Loss: 0.034985
+AlkaneCarbonyl
+  MLP
+Best Train Accuracy: 0.998889, Best Val Accuracy: 1.000000, Best Test Accuracy: 0.982301
+Best Train Loss: 0.000463, Best Val Loss: 0.001067, Best Test Loss: 0.001597
+Best Train Accuracy: 0.993750, Best Val Accuracy: 0.970000, Best Test Accuracy: 0.970000
+Best Train Loss: 0.001663, Best Val Loss: 0.002639, Best Test Loss: 0.003242
+training_acc: (tensor(nan, dtype=torch.float64), tensor(0.8725))
+validation_acc: (tensor(0.2046, dtype=torch.float64), tensor(0.8850))
+test_acc: (tensor(0.2486, dtype=torch.float64), tensor(0.8250))
+_____________________________________________________________________________________________aids
+  MLP
+Best Train Accuracy: 0.988125, Best Val Accuracy: 0.985000, Best Test Accuracy: 0.980000
+Best Train Loss: 0.028233, Best Val Loss: 0.036065, Best Test Loss: 0.032678
+  MLP
+Best Train Accuracy: 0.988125, Best Val Accuracy: 0.985000, Best Test Accuracy: 0.985000
+Best Train Loss: 0.026648, Best Val Loss: 0.035422, Best Test Loss: 0.030874
+  MLP
+Best Train Accuracy: 0.989375, Best Val Accuracy: 0.990000, Best Test Accuracy: 0.985000
+Best Train Loss: 0.028015, Best Val Loss: 0.035861, Best Test Loss: 0.031925
+  MLP
+Best Train Accuracy: 0.988750, Best Val Accuracy: 0.985000, Best Test Accuracy: 0.985000
+Best Train Loss: 0.028047, Best Val Loss: 0.035677, Best Test Loss: 0.032214
+  MLP
+Best Train Accuracy: 0.988750, Best Val Accuracy: 0.985000, Best Test Accuracy: 0.985000
+Best Train Loss: 0.028007, Best Val Loss: 0.035681, Best Test Loss: 0.032225
+ba2
+  MLP
+Best Train Accuracy: 0.993750, Best Val Accuracy: 0.970000, Best Test Accuracy: 0.970000
+Best Train Loss: 0.002115, Best Val Loss: 0.002974, Best Test Loss: 0.003930
+  MLP
+Best Train Accuracy: 0.992500, Best Val Accuracy: 0.980000, Best Test Accuracy: 0.970000
+Best Train Loss: 0.001759, Best Val Loss: 0.002652, Best Test Loss: 0.003603
+  MLP
+Best Train Accuracy: 0.993750, Best Val Accuracy: 0.970000, Best Test Accuracy: 0.970000
+Best Train Loss: 0.002014, Best Val Loss: 0.002878, Best Test Loss: 0.003715
+  MLP
+Best Train Accuracy: 0.992500, Best Val Accuracy: 0.970000, Best Test Accuracy: 0.970000
+Best Train Loss: 0.001870, Best Val Loss: 0.002948, Best Test Loss: 0.003762
+  MLP
+Best Train Accuracy: 0.992500, Best Val Accuracy: 0.980000, Best Test Accuracy: 0.970000
+Best Train Loss: 0.001824, Best Val Loss: 0.002846, Best Test Loss: 0.003592
+BBBP
+  MLP
+Best Train Accuracy: 0.946646, Best Val Accuracy: 0.932927, Best Test Accuracy: 0.945122
+Best Train Loss: 0.029458, Best Val Loss: 0.038213, Best Test Loss: 0.029206
+  MLP
+Best Train Accuracy: 0.945122, Best Val Accuracy: 0.932927, Best Test Accuracy: 0.945122
+Best Train Loss: 0.029283, Best Val Loss: 0.038338, Best Test Loss: 0.029866
+  MLP
+Best Train Accuracy: 0.945884, Best Val Accuracy: 0.932927, Best Test Accuracy: 0.945122
+Best Train Loss: 0.029305, Best Val Loss: 0.039049, Best Test Loss: 0.029123
+  MLP
+Best Train Accuracy: 0.945122, Best Val Accuracy: 0.932927, Best Test Accuracy: 0.945122
+Best Train Loss: 0.030181, Best Val Loss: 0.038933, Best Test Loss: 0.030125
+  MLP
+Best Train Accuracy: 0.943598, Best Val Accuracy: 0.932927, Best Test Accuracy: 0.945122
+Best Train Loss: 0.030196, Best Val Loss: 0.039468, Best Test Loss: 0.029705
+mutag
+  MLP
+Best Train Accuracy: 0.878639, Best Val Accuracy: 0.868664, Best Test Accuracy: 0.875576
+Best Train Loss: 0.077468, Best Val Loss: 0.080465, Best Test Loss: 0.077254
+  MLP
+Best Train Accuracy: 0.878351, Best Val Accuracy: 0.866359, Best Test Accuracy: 0.875576
+Best Train Loss: 0.077072, Best Val Loss: 0.080056, Best Test Loss: 0.077032
+  MLP
+Best Train Accuracy: 0.877198, Best Val Accuracy: 0.864055, Best Test Accuracy: 0.877880
+Best Train Loss: 0.076527, Best Val Loss: 0.079525, Best Test Loss: 0.076854
+  MLP
+Best Train Accuracy: 0.876622, Best Val Accuracy: 0.866359, Best Test Accuracy: 0.875576
+Best Train Loss: 0.077229, Best Val Loss: 0.079936, Best Test Loss: 0.077170
+  MLP
+Best Train Accuracy: 0.878351, Best Val Accuracy: 0.866359, Best Test Accuracy: 0.870968
+Best Train Loss: 0.076339, Best Val Loss: 0.079622, Best Test Loss: 0.076499
+Benzen
+  MLP
+Best Train Accuracy: 0.953646, Best Val Accuracy: 0.954913, Best Test Accuracy: 0.944535
+Best Train Loss: 0.034765, Best Val Loss: 0.039552, Best Test Loss: 0.041266
+  MLP
+Best Train Accuracy: 0.953896, Best Val Accuracy: 0.956069, Best Test Accuracy: 0.946982
+Best Train Loss: 0.034776, Best Val Loss: 0.039576, Best Test Loss: 0.041243
+  MLP
+Best Train Accuracy: 0.953145, Best Val Accuracy: 0.953757, Best Test Accuracy: 0.942088
+Best Train Loss: 0.034992, Best Val Loss: 0.039015, Best Test Loss: 0.041487
+  MLP
+Best Train Accuracy: 0.954648, Best Val Accuracy: 0.957225, Best Test Accuracy: 0.946982
+Best Train Loss: 0.034199, Best Val Loss: 0.039426, Best Test Loss: 0.041036
+  MLP
+Best Train Accuracy: 0.953896, Best Val Accuracy: 0.951445, Best Test Accuracy: 0.938825
+Best Train Loss: 0.034377, Best Val Loss: 0.040234, Best Test Loss: 0.041474
+AlkaneCarbonyl
+  MLP
+Best Train Accuracy: 0.997778, Best Val Accuracy: 1.000000, Best Test Accuracy: 1.000000
+Best Train Loss: 0.000836, Best Val Loss: 0.000671, Best Test Loss: 0.001065
+  MLP
+Best Train Accuracy: 0.997778, Best Val Accuracy: 1.000000, Best Test Accuracy: 1.000000
+Best Train Loss: 0.000897, Best Val Loss: 0.000682, Best Test Loss: 0.001083
+  MLP
+Best Train Accuracy: 0.997778, Best Val Accuracy: 1.000000, Best Test Accuracy: 1.000000
+Best Train Loss: 0.000815, Best Val Loss: 0.000667, Best Test Loss: 0.001077
+  MLP
+Best Train Accuracy: 0.996667, Best Val Accuracy: 1.000000, Best Test Accuracy: 1.000000
+Best Train Loss: 0.000861, Best Val Loss: 0.000684, Best Test Loss: 0.001023
+  MLP
+Best Train Accuracy: 0.996667, Best Val Accuracy: 1.000000, Best Test Accuracy: 1.000000
+Best Train Loss: 0.000942, Best Val Loss: 0.000691, Best Test Loss: 0.001084
+aids
+  Decision Tree
+training_acc: (tensor(0.0163, dtype=torch.float64), tensor(0.9906))
+validation_acc: (tensor(0.0591, dtype=torch.float64), tensor(0.9750))
+test_acc: (tensor(0.0438, dtype=torch.float64), tensor(0.9800))
+  Decision Tree
+training_acc: (tensor(0.0173, dtype=torch.float64), tensor(0.9944))
+validation_acc: (tensor(0.0976, dtype=torch.float64), tensor(0.9600))
+test_acc: (tensor(0.0621, dtype=torch.float64), tensor(0.9800))
+  Decision Tree
+training_acc: (tensor(0.0394, dtype=torch.float64), tensor(0.9725))
+validation_acc: (tensor(0.0621, dtype=torch.float64), tensor(0.9650))
+test_acc: (tensor(0.0830, dtype=torch.float64), tensor(0.9350))
+  Decision Tree
+training_acc: (tensor(0.0366, dtype=torch.float64), tensor(0.9906))
+validation_acc: (tensor(0.0956, dtype=torch.float64), tensor(0.9500))
+test_acc: (tensor(0.0811, dtype=torch.float64), tensor(0.9800))
+  Decision Tree
+training_acc: (tensor(0.0426, dtype=torch.float64), tensor(0.9731))
+validation_acc: (tensor(0.0634, dtype=torch.float64), tensor(0.9550))
+test_acc: (tensor(0.0620, dtype=torch.float64), tensor(0.9600))
+ba2
+  Decision Tree
+training_acc: (tensor(0.0012, dtype=torch.float64), tensor(0.9912))
+validation_acc: (tensor(0.0031, dtype=torch.float64), tensor(0.9900))
+test_acc: (tensor(0.0023, dtype=torch.float64), tensor(0.9900))
+  Decision Tree
+training_acc: (tensor(0.0021, dtype=torch.float64), tensor(0.9900))
+validation_acc: (tensor(0.0037, dtype=torch.float64), tensor(0.9900))
+test_acc: (tensor(0.0043, dtype=torch.float64), tensor(0.9800))
+  Decision Tree
+training_acc: (tensor(0.0005, dtype=torch.float64), tensor(0.9950))
+validation_acc: (tensor(0.0017, dtype=torch.float64), tensor(0.9900))
+test_acc: (tensor(0.0047, dtype=torch.float64), tensor(0.9700))
+  Decision Tree
+training_acc: (tensor(0.0007, dtype=torch.float64), tensor(0.9962))
+validation_acc: (tensor(0.0024, dtype=torch.float64), tensor(1.))
+test_acc: (tensor(0.0049, dtype=torch.float64), tensor(0.9700))
+  Decision Tree
+training_acc: (tensor(0.0003, dtype=torch.float64), tensor(0.9950))
+validation_acc: (tensor(0.0033, dtype=torch.float64), tensor(1.))
+test_acc: (tensor(0.0054, dtype=torch.float64), tensor(0.9700))
+BBBP
+  Decision Tree
+training_acc: (tensor(0.0024, dtype=torch.float64), tensor(0.9870))
+validation_acc: (tensor(0.0415, dtype=torch.float64), tensor(0.8841))
+test_acc: (tensor(0.0383, dtype=torch.float64), tensor(0.9268))
+  Decision Tree
+training_acc: (tensor(0.0194, dtype=torch.float64), tensor(0.9604))
+validation_acc: (tensor(0.0750, dtype=torch.float64), tensor(0.8902))
+test_acc: (tensor(0.0540, dtype=torch.float64), tensor(0.8963))
+  Decision Tree
+training_acc: (tensor(0.0024, dtype=torch.float64), tensor(0.9878))
+validation_acc: (tensor(0.0483, dtype=torch.float64), tensor(0.8902))
+test_acc: (tensor(0.0425, dtype=torch.float64), tensor(0.9207))
+  Decision Tree
+training_acc: (tensor(0.0024, dtype=torch.float64), tensor(0.9878))
+validation_acc: (tensor(0.0415, dtype=torch.float64), tensor(0.8780))
+test_acc: (tensor(0.0451, dtype=torch.float64), tensor(0.9207))
+  Decision Tree
+training_acc: (tensor(0.0024, dtype=torch.float64), tensor(0.9870))
+validation_acc: (tensor(0.0399, dtype=torch.float64), tensor(0.8963))
+test_acc: (tensor(0.0419, dtype=torch.float64), tensor(0.9268))
+mutag
+  Decision Tree
+training_acc: (tensor(0.0118, dtype=torch.float64), tensor(0.9562))
+validation_acc: (tensor(0.0606, dtype=torch.float64), tensor(0.9078))
+test_acc: (tensor(0.0800, dtype=torch.float64), tensor(0.8571))
+  Decision Tree
+training_acc: (tensor(0.0097, dtype=torch.float64), tensor(0.9611))
+validation_acc: (tensor(0.0599, dtype=torch.float64), tensor(0.9009))
+test_acc: (tensor(0.0778, dtype=torch.float64), tensor(0.8664))
+  Decision Tree
+training_acc: (tensor(0.0137, dtype=torch.float64), tensor(0.9596))
+validation_acc: (tensor(0.0661, dtype=torch.float64), tensor(0.9055))
+test_acc: (tensor(0.0901, dtype=torch.float64), tensor(0.8779))
+  Decision Tree
+training_acc: (tensor(0.0097, dtype=torch.float64), tensor(0.9611))
+validation_acc: (tensor(0.0596, dtype=torch.float64), tensor(0.9009))
+test_acc: (tensor(0.0798, dtype=torch.float64), tensor(0.8571))
+  Decision Tree
+training_acc: (tensor(0.0097, dtype=torch.float64), tensor(0.9611))
+validation_acc: (tensor(0.0584, dtype=torch.float64), tensor(0.9032))
+test_acc: (tensor(0.0810, dtype=torch.float64), tensor(0.8548))
+Benzen
+  Decision Tree
+training_acc: (tensor(0.0128, dtype=torch.float64), tensor(0.9795))
+validation_acc: (tensor(0.0589, dtype=torch.float64), tensor(0.9376))
+test_acc: (tensor(0.0627, dtype=torch.float64), tensor(0.9307))
+  Decision Tree
+training_acc: (tensor(0.0154, dtype=torch.float64), tensor(0.9774))
+validation_acc: (tensor(0.0591, dtype=torch.float64), tensor(0.9422))
+test_acc: (tensor(0.0659, dtype=torch.float64), tensor(0.9356))
+  Decision Tree
+training_acc: (tensor(0.0421, dtype=torch.float64), tensor(0.9379))
+validation_acc: (tensor(0.0878, dtype=torch.float64), tensor(0.9121))
+test_acc: (tensor(0.0869, dtype=torch.float64), tensor(0.9062))
+  Decision Tree
+training_acc: (tensor(0.0276, dtype=torch.float64), tensor(0.9541))
+validation_acc: (tensor(0.0829, dtype=torch.float64), tensor(0.9272))
+test_acc: (tensor(0.0840, dtype=torch.float64), tensor(0.9168))
+  Decision Tree
+training_acc: (tensor(0.0348, dtype=torch.float64), tensor(0.9604))
+validation_acc: (tensor(0.0777, dtype=torch.float64), tensor(0.9260))
+test_acc: (tensor(0.0875, dtype=torch.float64), tensor(0.9119))
+AlkaneCarbonyl
+  Decision Tree
+training_acc: (tensor(0.0003, dtype=torch.float64), tensor(0.9989))
+validation_acc: (tensor(0.0007, dtype=torch.float64), tensor(1.))
+test_acc: (tensor(0.0014, dtype=torch.float64), tensor(1.))
+  Decision Tree
+training_acc: (tensor(0.0003, dtype=torch.float64), tensor(0.9989))
+validation_acc: (tensor(0.0007, dtype=torch.float64), tensor(1.))
+test_acc: (tensor(0.0014, dtype=torch.float64), tensor(1.))
+  Decision Tree
+training_acc: (tensor(0.0003, dtype=torch.float64), tensor(0.9989))
+validation_acc: (tensor(0.0007, dtype=torch.float64), tensor(1.))
+test_acc: (tensor(0.0014, dtype=torch.float64), tensor(1.))
+  Decision Tree
+training_acc: (tensor(6.6660e-05, dtype=torch.float64), tensor(1.))
+validation_acc: (tensor(0.0008, dtype=torch.float64), tensor(0.9911))
+test_acc: (tensor(0.0017, dtype=torch.float64), tensor(1.))
+  Decision Tree
+training_acc: (tensor(0.0003, dtype=torch.float64), tensor(0.9989))
+validation_acc: (tensor(0.0007, dtype=torch.float64), tensor(1.))
+test_acc: (tensor(0.0014, dtype=torch.float64), tensor(1.))
+aids
+  Linear Model
+training_acc: (tensor(nan, dtype=torch.float64), tensor(0.8725))
+validation_acc: (tensor(0.2046, dtype=torch.float64), tensor(0.8850))
+test_acc: (tensor(0.2486, dtype=torch.float64), tensor(0.8250))
+  Linear Model
+training_acc: (tensor(nan, dtype=torch.float64), tensor(0.8725))
+validation_acc: (tensor(0.2046, dtype=torch.float64), tensor(0.8850))
+test_acc: (tensor(0.2486, dtype=torch.float64), tensor(0.8250))
+  Linear Model
+training_acc: (tensor(nan, dtype=torch.float64), tensor(0.8725))
+validation_acc: (tensor(0.2046, dtype=torch.float64), tensor(0.8850))
+test_acc: (tensor(0.2486, dtype=torch.float64), tensor(0.8250))
+  Linear Model
+training_acc: (tensor(nan, dtype=torch.float64), tensor(0.8725))
+validation_acc: (tensor(0.2046, dtype=torch.float64), tensor(0.8850))
+test_acc: (tensor(0.2486, dtype=torch.float64), tensor(0.8250))
+  Linear Model
+training_acc: (tensor(nan, dtype=torch.float64), tensor(0.8725))
+validation_acc: (tensor(0.2046, dtype=torch.float64), tensor(0.8850))
+test_acc: (tensor(0.2486, dtype=torch.float64), tensor(0.8250))
+ba2
+  Linear Model
+training_acc: (tensor(0.0099, dtype=torch.float64), tensor(0.9837))
+validation_acc: (tensor(0.0110, dtype=torch.float64), tensor(0.9600))
+test_acc: (tensor(0.0111, dtype=torch.float64), tensor(0.9600))
+  Linear Model
+training_acc: (tensor(0.0099, dtype=torch.float64), tensor(0.9837))
+validation_acc: (tensor(0.0110, dtype=torch.float64), tensor(0.9600))
+test_acc: (tensor(0.0111, dtype=torch.float64), tensor(0.9600))
+  Linear Model
+training_acc: (tensor(0.0099, dtype=torch.float64), tensor(0.9837))
+validation_acc: (tensor(0.0110, dtype=torch.float64), tensor(0.9600))
+test_acc: (tensor(0.0111, dtype=torch.float64), tensor(0.9600))
+  Linear Model
+training_acc: (tensor(0.0099, dtype=torch.float64), tensor(0.9837))
+validation_acc: (tensor(0.0110, dtype=torch.float64), tensor(0.9600))
+test_acc: (tensor(0.0111, dtype=torch.float64), tensor(0.9600))
+  Linear Model
+training_acc: (tensor(0.0099, dtype=torch.float64), tensor(0.9837))
+validation_acc: (tensor(0.0110, dtype=torch.float64), tensor(0.9600))
+test_acc: (tensor(0.0111, dtype=torch.float64), tensor(0.9600))
+BBBP
+  Linear Model
+training_acc: (tensor(0.2341, dtype=torch.float64), tensor(0.8095))
+validation_acc: (tensor(0.2240, dtype=torch.float64), tensor(0.7683))
+test_acc: (tensor(0.1901, dtype=torch.float64), tensor(0.8476))
+  Linear Model
+training_acc: (tensor(0.2341, dtype=torch.float64), tensor(0.8095))
+validation_acc: (tensor(0.2240, dtype=torch.float64), tensor(0.7683))
+test_acc: (tensor(0.1901, dtype=torch.float64), tensor(0.8476))
+  Linear Model
+training_acc: (tensor(0.2341, dtype=torch.float64), tensor(0.8095))
+validation_acc: (tensor(0.2240, dtype=torch.float64), tensor(0.7683))
+test_acc: (tensor(0.1901, dtype=torch.float64), tensor(0.8476))
+  Linear Model
+training_acc: (tensor(0.2341, dtype=torch.float64), tensor(0.8095))
+validation_acc: (tensor(0.2240, dtype=torch.float64), tensor(0.7683))
+test_acc: (tensor(0.1901, dtype=torch.float64), tensor(0.8476))
+  Linear Model
+training_acc: (tensor(0.2341, dtype=torch.float64), tensor(0.8095))
+validation_acc: (tensor(0.2240, dtype=torch.float64), tensor(0.7683))
+test_acc: (tensor(0.1901, dtype=torch.float64), tensor(0.8476))
+mutag
+  Linear Model
+training_acc: (tensor(0.2749, dtype=torch.float64), tensor(0.6114))
+validation_acc: (tensor(0.3022, dtype=torch.float64), tensor(0.6014))
+test_acc: (tensor(0.2713, dtype=torch.float64), tensor(0.5899))
+  Linear Model
+training_acc: (tensor(0.2749, dtype=torch.float64), tensor(0.6114))
+validation_acc: (tensor(0.3022, dtype=torch.float64), tensor(0.6014))
+test_acc: (tensor(0.2713, dtype=torch.float64), tensor(0.5899))
+  Linear Model
+training_acc: (tensor(0.2749, dtype=torch.float64), tensor(0.6114))
+validation_acc: (tensor(0.3022, dtype=torch.float64), tensor(0.6014))
+test_acc: (tensor(0.2713, dtype=torch.float64), tensor(0.5899))
+  Linear Model
+training_acc: (tensor(0.2749, dtype=torch.float64), tensor(0.6114))
+validation_acc: (tensor(0.3022, dtype=torch.float64), tensor(0.6014))
+test_acc: (tensor(0.2713, dtype=torch.float64), tensor(0.5899))
+  Linear Model
+training_acc: (tensor(0.2749, dtype=torch.float64), tensor(0.6114))
+validation_acc: (tensor(0.3022, dtype=torch.float64), tensor(0.6014))
+test_acc: (tensor(0.2713, dtype=torch.float64), tensor(0.5899))
+Benzen
+  Linear Model
+training_acc: (tensor(0.3550, dtype=torch.float64), tensor(0.8056))
+validation_acc: (tensor(0.3481, dtype=torch.float64), tensor(0.7711))
+test_acc: (tensor(0.3425, dtype=torch.float64), tensor(0.7773))
+  Linear Model
+training_acc: (tensor(0.3550, dtype=torch.float64), tensor(0.8056))
+validation_acc: (tensor(0.3481, dtype=torch.float64), tensor(0.7711))
+test_acc: (tensor(0.3425, dtype=torch.float64), tensor(0.7773))
+  Linear Model
+training_acc: (tensor(0.3550, dtype=torch.float64), tensor(0.8056))
+validation_acc: (tensor(0.3481, dtype=torch.float64), tensor(0.7711))
+test_acc: (tensor(0.3425, dtype=torch.float64), tensor(0.7773))
+  Linear Model
+training_acc: (tensor(0.3550, dtype=torch.float64), tensor(0.8056))
+validation_acc: (tensor(0.3481, dtype=torch.float64), tensor(0.7711))
+test_acc: (tensor(0.3425, dtype=torch.float64), tensor(0.7773))
+  Linear Model
+training_acc: (tensor(0.3550, dtype=torch.float64), tensor(0.8056))
+validation_acc: (tensor(0.3481, dtype=torch.float64), tensor(0.7711))
+test_acc: (tensor(0.3425, dtype=torch.float64), tensor(0.7773))
+AlkaneCarbonyl
+  Linear Model
+training_acc: (tensor(0.1557, dtype=torch.float64), tensor(0.6089))
+validation_acc: (tensor(0.1555, dtype=torch.float64), tensor(0.6339))
+test_acc: (tensor(0.1595, dtype=torch.float64), tensor(0.6460))
+  Linear Model
+training_acc: (tensor(0.1557, dtype=torch.float64), tensor(0.6089))
+validation_acc: (tensor(0.1555, dtype=torch.float64), tensor(0.6339))
+test_acc: (tensor(0.1595, dtype=torch.float64), tensor(0.6460))
+  Linear Model
+training_acc: (tensor(0.1557, dtype=torch.float64), tensor(0.6089))
+validation_acc: (tensor(0.1555, dtype=torch.float64), tensor(0.6339))
+test_acc: (tensor(0.1595, dtype=torch.float64), tensor(0.6460))
+  Linear Model
+training_acc: (tensor(0.1557, dtype=torch.float64), tensor(0.6089))
+validation_acc: (tensor(0.1555, dtype=torch.float64), tensor(0.6339))
+test_acc: (tensor(0.1595, dtype=torch.float64), tensor(0.6460))
+  Linear Model
+training_acc: (tensor(0.1557, dtype=torch.float64), tensor(0.6089))
+validation_acc: (tensor(0.1555, dtype=torch.float64), tensor(0.6339))
+test_acc: (tensor(0.1595, dtype=torch.float64), tensor(0.6460))
+aids
+  Linear Model
+  Linear Model
+  Linear Model
+  Linear Model
+  Linear Model
+ba2
+  Linear Model
+  Linear Model
+  Linear Model
+  Linear Model
+  Linear Model
+BBBP
+  Linear Model
+  Linear Model
+  Linear Model
+  Linear Model
+  Linear Model
+mutag
+  Linear Model
+  Linear Model
+  Linear Model
+  Linear Model
+  Linear Model
+Benzen
+  Linear Model
+  Linear Model
+  Linear Model
+  Linear Model
+  Linear Model
+AlkaneCarbonyl
+  Linear Model
+  Linear Model
+  Linear Model
+  Linear Model
+  Linear Model

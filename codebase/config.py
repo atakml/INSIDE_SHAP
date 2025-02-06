@@ -1,0 +1,9 @@
+dataset = "BBBP"
+model = "GNN"
+explainer = "ACT"
+epochs = 10
+reg_size = None
+reg_ent = None
+lr = 0.01
+temps = None
+sample_bias = None

@@ -1,0 +1,20 @@
+,quality,subgroup,size_sg,size_dataset,positives_sg,positives_dataset,size_complement,relative_size_sg,relative_size_complement,coverage_sg,coverage_complement,target_share_sg,target_share_complement,target_share_dataset,lift,time
+0,516.0173705747875,l_2c_12==True AND l_2c_13==True AND l_2c_15==True AND l_2c_18==True AND l_2c_19==False AND l_2c_3==True AND l_2c_6==True AND l_2c_7==True AND l_2c_9==True,1417.0,25000.0,1305.0,12500.0,23583.0,0.05668,0.94332,0.1044,0.8956,0.9209597741707833,0.4747063562735869,0.5,1.8419195483415667,4.6822381019592285
+,quality,subgroup,size_sg,size_dataset,positives_sg,positives_dataset,size_complement,relative_size_sg,relative_size_complement,coverage_sg,coverage_complement,target_share_sg,target_share_complement,target_share_dataset,lift,time
+0,375.6981522661954,l_2c_10==True AND l_2c_2==False,748.0,25000.0,748.0,12500.0,24252.0,0.02992,0.97008,0.05984,0.94016,1.0,0.4845785914563747,0.5,2.0,2.9948058128356934
+,quality,subgroup,size_sg,size_dataset,positives_sg,positives_dataset,size_complement,relative_size_sg,relative_size_complement,coverage_sg,coverage_complement,target_share_sg,target_share_complement,target_share_dataset,lift,time
+0,225.490067865132,l_2c_1==False AND l_2c_4==False,492.0,25000.0,492.0,12500.0,24508.0,0.01968,0.98032,0.03936,0.96064,1.0,0.48996246123714704,0.5,2.0,2.9010884761810303
+,quality,subgroup,size_sg,size_dataset,positives_sg,positives_dataset,size_complement,relative_size_sg,relative_size_complement,coverage_sg,coverage_complement,target_share_sg,target_share_complement,target_share_dataset,lift,time
+0,240.00028868587106,l_2c_0==False AND l_2c_11==False,582.0,25000.0,582.0,12500.0,24418.0,0.02328,0.97672,0.04656,0.95344,1.0,0.4880825620443935,0.5,2.0,2.9364778995513916
+,quality,subgroup,size_sg,size_dataset,positives_sg,positives_dataset,size_complement,relative_size_sg,relative_size_complement,coverage_sg,coverage_complement,target_share_sg,target_share_complement,target_share_dataset,lift,time
+0,170.2178819608671,l_2c_17==False AND l_2c_5==False,404.0,25000.0,404.0,12500.0,24596.0,0.01616,0.98384,0.03232,0.96768,1.0,0.4917872824849569,0.5,2.0,2.8755204677581787
+,quality,subgroup,size_sg,size_dataset,positives_sg,positives_dataset,size_complement,relative_size_sg,relative_size_complement,coverage_sg,coverage_complement,target_share_sg,target_share_complement,target_share_dataset,lift,time
+0,258.2994734216045,l_2c_14==False AND l_2c_8==False,726.0,25000.0,726.0,12500.0,24274.0,0.02904,0.97096,0.05808,0.94192,1.0,0.48504572793935896,0.5,2.0,3.4692649841308594
+,quality,subgroup,size_sg,size_dataset,positives_sg,positives_dataset,size_complement,relative_size_sg,relative_size_complement,coverage_sg,coverage_complement,target_share_sg,target_share_complement,target_share_dataset,lift,time
+0,87.19102198466135,l_2c_16==False AND l_2c_3==True,2668.0,25000.0,2457.0,12500.0,22332.0,0.10672,0.89328,0.19656,0.80344,0.9209145427286357,0.449713415726312,0.5,1.8418290854572714,5.911823749542236
+,quality,subgroup,size_sg,size_dataset,positives_sg,positives_dataset,size_complement,relative_size_sg,relative_size_complement,coverage_sg,coverage_complement,target_share_sg,target_share_complement,target_share_dataset,lift,time
+0,0.0,l_2c_0==True,24418.0,25000.0,11918.0,12500.0,582.0,0.97672,0.02328,0.95344,0.04656,0.4880825620443935,1.0,0.5,0.976165124088787,5.1872687339782715
+,quality,subgroup,size_sg,size_dataset,positives_sg,positives_dataset,size_complement,relative_size_sg,relative_size_complement,coverage_sg,coverage_complement,target_share_sg,target_share_complement,target_share_dataset,lift,time
+0,0.0,l_2c_0==True,24418.0,25000.0,11918.0,12500.0,582.0,0.97672,0.02328,0.95344,0.04656,0.4880825620443935,1.0,0.5,0.976165124088787,6.830483675003052
+,quality,subgroup,size_sg,size_dataset,positives_sg,positives_dataset,size_complement,relative_size_sg,relative_size_complement,coverage_sg,coverage_complement,target_share_sg,target_share_complement,target_share_dataset,lift,time
+0,0.0,l_2c_0==True,24418.0,25000.0,11918.0,12500.0,582.0,0.97672,0.02328,0.95344,0.04656,0.4880825620443935,1.0,0.5,0.976165124088787,10.370867013931274

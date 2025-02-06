@@ -1,0 +1,13 @@
+File not found: models/Aids_results.txt
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|c|c|c|c|c|c|c|}
+\hline
+Dataset & Train Acc (mean $\pm$ std) & Valid Acc (mean $\pm$ std) & Test Acc (mean $\pm$ std) & Best Train Acc & Best Valid Acc & Best Test Acc & Stability \\ \hline
+ba2 & 0.9875 $\pm$ 0.0091 & 0.9880 $\pm$ 0.0075 & 0.9860 $\pm$ 0.0150 & 0.9900 & 1.0000 & 0.9900 & \checkmark \\ \hlineAlkaneCarbonyl & 0.9980 $\pm$ 0.0019 & 1.0000 $\pm$ 0.0000 & 1.0000 $\pm$ 0.0000 & 0.9989 & 1.0000 & 1.0000 & \checkmark \\ \hlineBBBP & 0.9652 $\pm$ 0.0122 & 0.9390 $\pm$ 0.0102 & 0.9427 $\pm$ 0.0062 & 0.9809 & 0.9573 & 0.9390 & \checkmark \\ \hlinemutag & 0.9325 $\pm$ 0.0000 & 0.9424 $\pm$ 0.0000 & 0.9147 $\pm$ 0.0000 & 0.9325 & 0.9424 & 0.9147 & \checkmark \\ \hlineBenzen & 0.9649 $\pm$ 0.0000 & 0.9723 $\pm$ 0.0000 & 0.9657 $\pm$ 0.0000 & 0.9649 & 0.9723 & 0.9657 & \checkmark \\ \hline
+\end{tabular}
+\caption{Results across all datasets. Stability is marked with a checkmark if all validation accuracies exceed 0.8.}
+\label{tab:all_results}
+\end{table}
+

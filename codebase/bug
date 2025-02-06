@@ -1,0 +1,52 @@
+/home/ata/shap_inside/codebase/ExplanationEvaluation/PatternMining
+File sorted by graph ids
+0
+/home/ata/shap_inside/codebase/ExplanationEvaluation/PatternMining
+File sorted by graph ids
+0
+/home/ata/shap_inside/codebase/ExplanationEvaluation/PatternMining
+File sorted by graph ids
+0
+cible  0
+aids_activation_pretraite_2.csv
+File sorted by graph ids
+Loading aids dataset
+1600 torch.Size([96, 38])
+Run 0 with seed 4
+[[96.]
+ [96.]
+ [96.]
+ ...
+ [96.]
+ [96.]
+ [96.]]
+        class
+0        True
+1        True
+2        True
+3        True
+4        True
+...       ...
+153595   True
+153596   True
+153597   True
+153598   True
+153599   True
+
+[153600 rows x 1 columns]
+        true_class
+0            False
+1            False
+2            False
+3            False
+4            False
+...            ...
+153595       False
+153596       False
+153597       False
+153598       False
+153599       False
+
+[153600 rows x 1 columns]
+CALLLLLLLLLL
+ExplanationEvaluation/datasets/activations/Aids/Aids_activation_encode_motifs.csv

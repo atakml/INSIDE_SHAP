@@ -1,0 +1,16 @@
+0,# 0 0 target:0 c+:0 c-:0 score:3.952969564968953 score+:0 score-:0 nb:1 =l_0c_6
+1,# 1 0 target:1 c+:0 c-:0 score:0.10963974523474462 score+:0 score-:0 nb:4 =l_0c_10 l_0c_18 l_0c_2 l_0c_4
+2,# 2 0 target:0 c+:0 c-:0 score:18.457530449391925 score+:0 score-:0 nb:3 =l_1c_11 l_1c_13 l_1c_15
+3,# 3 1 target:0 c+:0 c-:0 score:13.738776016616612 score+:0 score-:0 nb:6 =l_1c_10 l_1c_12 l_1c_16 l_1c_18 l_1c_3 l_1c_6
+4,# 4 2 target:0 c+:0 c-:0 score:1.964067546869046 score+:0 score-:0 nb:2 =l_1c_14 l_1c_17
+5,# 5 0 target:1 c+:0 c-:0 score:46.597383710206486 score+:0 score-:0 nb:6 =l_1c_11 l_1c_13 l_1c_15 l_1c_19 l_1c_4 l_1c_5
+6,# 6 1 target:1 c+:0 c-:0 score:9.72574910246476 score+:0 score-:0 nb:5 =l_1c_0 l_1c_12 l_1c_18 l_1c_6 l_1c_8
+7,# 7 0 target:0 c+:0 c-:0 score:700.0230123343936 score+:0 score-:0 nb:8 =l_2c_10 l_2c_13 l_2c_15 l_2c_18 l_2c_3 l_2c_6 l_2c_7 l_2c_9
+8,# 8 1 target:0 c+:0 c-:0 score:263.7151034588751 score+:0 score-:0 nb:1 =l_2c_12
+9,# 9 2 target:0 c+:0 c-:0 score:45.53984409403347 score+:0 score-:0 nb:5 =l_2c_0 l_2c_11 l_2c_17 l_2c_19 l_2c_3
+10,# 10 3 target:0 c+:0 c-:0 score:0.0 score+:0 score-:0 nb:1 =l_2c_0
+11,# 11 0 target:1 c+:0 c-:0 score:540.1864413255244 score+:0 score-:0 nb:2 =l_2c_18 l_2c_8
+12,# 12 1 target:1 c+:0 c-:0 score:124.08745706516493 score+:0 score-:0 nb:9 =l_2c_0 l_2c_10 l_2c_11 l_2c_17 l_2c_18 l_2c_19 l_2c_2 l_2c_4 l_2c_8
+13,# 13 2 target:1 c+:0 c-:0 score:116.27009607752552 score+:0 score-:0 nb:5 =l_2c_13 l_2c_14 l_2c_19 l_2c_1 l_2c_5
+14,# 14 3 target:1 c+:0 c-:0 score:141.415420287507 score+:0 score-:0 nb:2 =l_2c_16 l_2c_18
+15,# 15 4 target:1 c+:0 c-:0 score:0.0 score+:0 score-:0 nb:1 =l_2c_0

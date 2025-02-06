@@ -1,0 +1,189 @@
+"""import matplotlib.pyplot as plt
+import numpy as np
+
+# Data
+datasets = ['BA2', 'Mutag', 'Aids', 'BBBP', 'Benzen', 'AlkaneCarbonyl']
+methods = ['SubgraphX', 'GstarX', 'GraphSVX', 'EdgeShaper', 'INSIDE-SHAP', 'INSIDE']
+
+fidelity = [
+    [0.1082, 0.2686, 0.3987, 0.3092, 0.3388, 0.2614],
+    [0.0403, None, 0.3073, None, 0.5530, 0.6125],
+    [-0.0104, 0.1186, 0.1266, 0.1634, 0.1517, 0.1231],
+    [0.0174, 0.2541, 0.2071, 0.3717, 0.2535, 0.2417],
+    [0.2771, 0.5047, 0.5224, 0.5412, 0.7037, 0.7462],
+    [0.1275, 0.2073, 0.2127, 0.1304, 0.2305, 0.2337]
+]
+
+inv_fidelity = [
+    [0.2014, 0.1593, 0.1266, 0.1987, 0.2360, 0.0115],
+    [0.3831, None, 0.3073, None, 0.1722, 0.0985],
+    [0.7281, 0.6331, 0.7226, 0.7541, 0.6918, 0.6228],
+    [0.2589, 0.0721, 0.1787, 0.2422, 0.1234, 0.0463],
+    [0.3296, 0.0715, 0.2654, 0.3849, 0.1786, 0.0039],
+    [0.0432, 0.0242, -0.0067, -0.0144, -0.0194, 0.0009]
+]
+
+sparsity = [
+    [0.9426, 0.9013, 0.9515, 0.9492, 0.9300, 0.7314],
+    [0.9319, None, 0.8628, None, 0.8256, 0.6905],
+    [0.8358, 0.8953, 0.8967, 0.8575, 0.8976, 0.7634],
+    [0.9038, 0.8697, 0.8792, 0.8011, 0.8850, 0.7535],
+    [0.8959, 0.8585, 0.8031, 0.8588, 0.8189, 0.7116],
+    [0.9196, 0.7942, 0.7538, 0.6703, 0.8648, 0.7778]
+]
+
+# Plotting function
+def plot_metric(metric_data, metric_name):
+    x = np.arange(len(datasets))
+    width = 0.1
+
+    fig, ax = plt.subplots(figsize=(10, 6))
+    for i, method in enumerate(methods):
+        values = [metric_data[j][i] if metric_data[j][i] is not None else 0 for j in range(len(datasets))]
+        ax.bar(x + i * width, values, width, label=method)
+
+    ax.set_xlabel('Datasets')
+    ax.set_ylabel(metric_name)
+    ax.set_title(f'Comparison of {metric_name}')
+    ax.set_xticks(x + width * (len(methods) - 1) / 2)
+    ax.set_xticklabels(datasets)
+    ax.legend()
+
+    plt.show()
+
+# Plot each metric
+plot_metric(fidelity, 'Fidelity')
+plot_metric(inv_fidelity, 'Inv-Fidelity')
+plot_metric(sparsity, 'Sparsity')
+# Update dataset names and order
+datasets = ['Aids', 'BA2-Motifs', 'BBBP', 'Mutagenicity', 'Benzene', 'Alkane-Carbonyl']
+order = [2, 0, 3, 1, 4, 5]
+
+# Reorder data according to the new dataset order
+fidelity = [fidelity[i] for i in order]
+inv_fidelity = [inv_fidelity[i] for i in order]
+sparsity = [sparsity[i] for i in order]
+
+# Update plotting function to save plots
+def plot_metric(metric_data, metric_name):
+    x = np.arange(len(datasets))
+    width = 0.1
+
+    fig, ax = plt.subplots(figsize=(45, 10))
+    for i, method in enumerate(methods):
+        values = [metric_data[j][i] if metric_data[j][i] is not None else 0 for j in range(len(datasets))]
+        ax.bar(x + i * width, values, width, label=method)
+    #ax.set_xlabel('Datasets', fontsize=50)
+    ax.set_ylabel(metric_name, fontsize=50)
+    ax.set_title(f'Comparison of {metric_name}', fontsize=50)
+    ax.set_xticks(x + width * (len(methods) - 1) / 2)
+    ax.set_xticklabels(datasets, fontsize=45)
+    ax.set_yticklabels([f'{y:.2f}' for y in ax.get_yticks()], fontsize=45)
+    ax.legend(fontsize=45, loc='upper left', bbox_to_anchor=(1, 1))
+
+    plt.savefig(f'shapmod/{metric_name.lower()}_barplot.png', bbox_inches='tight')
+    plt.show()
+
+# Plot each metric
+plot_metric(fidelity, 'Fidelity')
+plot_metric(inv_fidelity, 'Inv-Fidelity')
+plot_metric(sparsity, 'Sparsity')"""
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Data
+datasets = ['BA2', 'Mutag', 'Aids', 'BBBP', 'Benzen', 'AlkaneCarbonyl']
+#methods = ['INSIDE-SHAP', 'INSIDE','SubgraphX', 'GstarX', 'GraphSVX', 'EdgeShaper']
+methods = ['SubgraphX', 'GstarX', 'GraphSVX', 'EdgeShaper', 'INSIDE-SHAP', 'INSIDE']
+
+fidelity = [
+    [0.1082, 0.2686, 0.3987, 0.3092, 0.3388, 0.2614],
+    [0.0403, None, 0.3073, None, 0.5530, 0.6125],
+    [-0.0104, 0.1186, 0.1266, 0.1634, 0.1517, 0.1231],
+    [0.0174, 0.2541, 0.2071, 0.3717, 0.2535, 0.2417],
+    [0.2771, 0.5047, 0.5224, 0.5412, 0.7037, 0.7462],
+    [0.1275, 0.2073, 0.2127, 0.1304, 0.2305, 0.2337]
+]
+
+inv_fidelity = [
+    [0.2014, 0.1593, 0.1266, 0.1987, 0.2360, 0.0115],
+    [0.3831, None, 0.3073, None, 0.1722, 0.0985],
+    [0.7281, 0.6331, 0.7226, 0.7541, 0.6918, 0.6228],
+    [0.2589, 0.0721, 0.1787, 0.2422, 0.1234, 0.0463],
+    [0.3296, 0.0715, 0.2654, 0.3849, 0.1786, 0.0039],
+    [0.0432, 0.0242, -0.0067, -0.0144, -0.0194, 0.0009]
+]
+
+sparsity = [
+    [0.9426, 0.9013, 0.9515, 0.9492, 0.9300, 0.7314],
+    [0.9319, None, 0.8628, None, 0.8256, 0.6905],
+    [0.8358, 0.8953, 0.8967, 0.8575, 0.8976, 0.7634],
+    [0.9038, 0.8697, 0.8792, 0.8011, 0.8850, 0.7535],
+    [0.8959, 0.8585, 0.8031, 0.8588, 0.8189, 0.7116],
+    [0.9196, 0.7942, 0.7538, 0.6703, 0.8648, 0.7778]
+]
+methods = ['INSIDE-SHAP', 'INSIDE', 'SubgraphX', 'GstarX', 'GraphSVX', 'EdgeShaper']
+
+# Reorder data according to the new methods order
+method_order = [4, 5, 0, 1, 2, 3]
+fidelity = [[row[i] for i in method_order] for row in fidelity]
+inv_fidelity = [[row[i] for i in method_order] for row in inv_fidelity]
+sparsity = [[row[i] for i in method_order] for row in sparsity]
+# Plotting function
+def plot_metric(metric_data, metric_name):
+    x = np.arange(len(datasets))
+    width = 0.1
+    patterns = [ '-', '+', 'x', 'o', 'O', '.', '*']
+
+    fig, ax = plt.subplots(figsize=(10, 6))
+    for i, method in enumerate(methods):
+        values = [metric_data[j][i] if metric_data[j][i] is not None else 0 for j in range(len(datasets))]
+        bars = ax.bar(x + i * width, values, width, label=method)
+
+    ax.set_xlabel('Datasets')
+    ax.set_ylabel(metric_name)
+    ax.set_title(f'Comparison of {metric_name}')
+    ax.set_xticks(x + width * (len(methods) - 1) / 2)
+    ax.set_xticklabels(datasets)
+    ax.legend()
+    plt.savefig(f'shapmod/{metric_name.lower()}_barplot.png', bbox_inches='tight')
+    plt.show()
+
+# Plot each metric
+plot_metric(fidelity, 'Fidelity')
+plot_metric(inv_fidelity, 'Inv-Fidelity')
+plot_metric(sparsity, 'Sparsity')
+# Update dataset names and order
+datasets = ['Aids', 'BA2-Motifs', 'BBBP', 'Mutagenicity', 'Benzene', 'Alkane-Carbonyl']
+order = [2, 0, 3, 1, 4, 5]
+
+# Reorder data according to the new dataset order
+fidelity = [fidelity[i] for i in order]
+inv_fidelity = [inv_fidelity[i] for i in order]
+sparsity = [sparsity[i] for i in order]
+
+"""# Update plotting function to save plots
+def plot_metric(metric_data, metric_name):
+    x = np.arange(len(datasets))
+    width = 0.1
+
+    fig, ax = plt.subplots(figsize=(45, 10))
+    for i, method in enumerate(methods):
+        values = [metric_data[j][i] if metric_data[j][i] is not None else 0 for j in range(len(datasets))]
+        ax.bar(x + i * width, values, width, label=method)
+    #ax.set_xlabel('Datasets', fontsize=50)
+    ax.set_ylabel(metric_name, fontsize=50)
+    ax.set_title(f'Comparison of {metric_name}', fontsize=50)
+    ax.set_xticks(x + width * (len(methods) - 1) / 2)
+    ax.set_xticklabels(datasets, fontsize=45)
+    ax.set_yticklabels([f'{y:.2f}' for y in ax.get_yticks()], fontsize=45)
+    ax.legend(fontsize=45, loc='upper left', bbox_to_anchor=(1, 1))
+
+    plt.savefig(f'shapmod/{metric_name.lower()}_barplot.png', bbox_inches='tight')
+    plt.show()"""
+
+# Plot each metric
+plot_metric(fidelity, 'Fidelity')
+plot_metric(inv_fidelity, 'Inv-Fidelity')
+plot_metric(sparsity, 'Sparsity')
